@@ -2,7 +2,7 @@
 
 module.exports = {
   TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.G1AB5p.wcU3DGlHl-_sQj7XlHI-QummSW_rMn_IUvgoE4",
-  language: "en",
+  language: "pl",
   ownerID: ["909013353396043798", ""], 
   mongodbUri : "",
   spotifyClientId : "4bfb37679f754afa9a93676d3807eb65",
@@ -13,7 +13,7 @@ module.exports = {
   activityName: "YouTube Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
-  embedTimeout: 20, 
+  embedTimeout: 220, 
   errorLog: "", 
   nodes: [
      {
