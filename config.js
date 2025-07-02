@@ -1,10 +1,10 @@
 
 
 module.exports = {
-  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.GLVdcv.mTWZaEKXBJ-VTz-CSZ2t4Rndo4wazSLaB5ZAwI",
+  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.G1AB5p.wcU3DGlHl-_sQj7XlHI-QummSW_rMn_IUvgoE4",
   language: "en",
   ownerID: ["909013353396043798", ""], 
-  mongodbUri : "srv://shiva:shiva@musicbotyt.ouljyww.mongodb.net/?retryWrites=true&w=majority",
+  mongodbUri : "",
   spotifyClientId : "4bfb37679f754afa9a93676d3807eb65",
   spotifyClientSecret : "7a1f0521991449d789ea196b6c90ad69",
   setupFilePath: './commands/setup.json',
