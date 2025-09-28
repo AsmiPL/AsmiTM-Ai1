@@ -1,10 +1,10 @@
 
 
 module.exports = {
-  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.GJyju7.qdr8oUNLor6uT3pynMhAgQ64JsYFJbVUeyvt_Q",
+  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.G8wfKE.iYcXGhH_Ka_i6ZWqxQK40r6oNdX-8IOesDj5ys",
   language: "pl",
-  ownerID: ["909013353396043798", ""], 
-  mongodbUri : "",
+  ownerID: ["882279843398570026", ""], 
+  mongodbUri : "mongodb+srv://shiva:shiva@discordbot.opd5w.mongodb.net/?retryWrites=true&w=majority",
   spotifyClientId : "4bfb37679f754afa9a93676d3807eb65",
   spotifyClientSecret : "7a1f0521991449d789ea196b6c90ad69",
   setupFilePath: './commands/setup.json',
@@ -13,7 +13,7 @@ module.exports = {
   activityName: "YouTube Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
-  embedTimeout: 220, 
+  embedTimeout: 86220, 
   errorLog: "", 
   nodes: [
      {
