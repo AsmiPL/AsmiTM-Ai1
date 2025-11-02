@@ -4,7 +4,7 @@ module.exports = {
   TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.GtO1z3.FQMghavE1qtOcBRHicOSKeFU6kLQVs2O6-TSlk",
   language: "pl",
   ownerID: ["882279843398570026", ""], 
-  mongodbUri : "mongodb+srv://shiva:shiva@discordbot.opd5w.mongodb.net/?retryWrites=true&w=majority",
+  mongodbUri : "",
   spotifyClientId : "4bfb37679f754afa9a93676d3807eb65",
   spotifyClientSecret : "7a1f0521991449d789ea196b6c90ad69",
   setupFilePath: './commands/setup.json',
@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "GlaceYT",
-      password: "glace",
-      host: "87.106.62.92",
-      port:  11642,
+      name: "",
+      password: "friston",
+      host: "192.99.10.133",
+      port:  5140,
       secure: false
     }
   ]
