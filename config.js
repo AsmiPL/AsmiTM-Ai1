@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.GtO1z3.FQMghavE1qtOcBRHicOSKeFU6kLQVs2O6-TSlk",
+  TOKEN: "MTIzODQ5ODAxNTEyNDEyNzc4NA.Gt2Tj4.c8NlNOzjT1Z5H-yGY_fzOc6XXtBw4RolcKRnY8",
   language: "pl",
   ownerID: ["882279843398570026", ""], 
   mongodbUri : "",
@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
      {
       name: "",
-      password: "friston",
-      host: "192.99.10.133",
-      port:  5140,
+      password: "Kaun.Yuvraj",
+      host: "pnode1.danbot.host",
+      port:  1186,
       secure: false
     }
   ]
