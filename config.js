@@ -19,7 +19,7 @@ module.exports = {
      {
       name: "GlceYT",
       password: "glace",
-      host: "us-01.strixnodes.com",
+      host: "us-01.strixnodes.com:8003",
       port:  8003,
       secure: false
     }
