@@ -1,18 +1,24 @@
-# Wybierz obraz bazowy
-FROM node:18
+# 1. Wybierz wersję Node.js (np. 20)
+FROM node:20-slim
 
-# Ustaw folder roboczy
-WORKDIR /app
+# 2. Ustaw katalog roboczy wewnątrz kontenera
+WORKDIR /usr/src/app
 
-# Skopiuj pliki zależności
+# 3. Skopiuj pliki z listą bibliotek
 COPY package*.json ./
 
-# TWOJA KOMENDA BUILD (odpowiednik build command z Rendera)
-RUN npm install
-RUN npm run build
+# 4. Zainstaluj biblioteki (npm install)
+RUN npm install --only=production
 
-# Skopiuj resztę plików
+# 5. Skopiuj resztę kodu Twojej aplikacji
 COPY . .
 
-# Uruchom aplikację
-CMD ["npm", "start"]
+# 6. (Opcjonalnie) Jeśli używasz TypeScript lub React, dodaj komendę build:
+# RUN npm run build
+
+# 7. Cloud Run wymaga, aby aplikacja słuchała na porcie zdefiniowanym w zmiennej środowiskowej PORT
+ENV PORT 8080
+EXPOSE 8080
+
+# 8. Uruchom aplikację (upewnij się, że w package.json masz skrypt "start")
+CMD [ "npm", "start" ]
