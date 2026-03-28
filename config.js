@@ -18,10 +18,10 @@ module.exports = {
   nodes: [
      {
       name: "GlceYT",
-      password: "glace",
-      host: "us-01.strixnodes.com:8003",
-      port:  8003,
-      secure: false
+      password: "https://seretia.link/discord",
+      host: "lavalinkv4.serenetia.com",
+      port:  443,
+      secure: true
     }
   ]
 }
